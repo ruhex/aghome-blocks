@@ -21,3 +21,5 @@
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
 ||cloudapp.azure.com^
+||scorecardresearch.com^
+||clck.yandex.net^
