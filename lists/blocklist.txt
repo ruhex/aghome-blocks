@@ -1,0 +1,369 @@
+[Adblock Plus 2.0]
+! Title: Ruhex Blocklist v2 (merged)
+! Created: 2026-09-07
+! Expires: 30 days
+! Homepage: https://github.com/aghome/blocks
+! Merged from telemetry-blocklist.txt + filter_2.txt
+! after DNS log analysis (2026-08-08 .. 2026-09-07)
+
+# ===============================================================
+# 1. Personal curated block (ex telemetry-blocklist.txt)
+# ===============================================================
+
+||1737660423.rsc.cdn77.org^
+||clientstream-ga.launchdarkly.com^
+||consent.google.com^
+||content-autofill.googleapis.com^
+||dls-gcp.di.atlas.samsung.com^
+||mqtt.c10r.facebook.com^
+||o33249.ingest.us.sentry.io^
+||optimizationguide-pa.googleapis.com^
+||pushserver.i-dgtl.ru^
+||sentry.io^
+||skylab-stream.prod.us-west-2.amplitude.com^
+||sponsor.ajay.app^
+||unleash.codeium.com^
+||www.googleadservices.com^
+||www.googletagmanager.com^
+||cloudapp.azure.com^
+||scorecardresearch.com^
+||clck.yandex.net^
+
+# ================================================================
+# Added from DNS log analysis (2026-08-08 .. 2026-09-07)
+# ================================================================
+
+# Confirmed ad/tracking endpoints
+||connect.facebook.net^
+||app.adjust.com^
+# Note: some entries above are muted by upstream allowlist rules;
+# enforcement for them is handled outside this repository
+
+# Telemetry / A-B experiments (medium evidence)
+||ab.chatgpt.com^
+||experimentation-evaluator.eu01.miro.com^
+||cdn.segmento.ru^
+||stats.gc.apple.com^
+||analytics.brew.sh^
+
+# Recently registered suspect zones (RDAP <100 days,
+# wildcard subdomains / pixel hosts, unknown owner)
+||voidslam.org^
+||wakuhyfeserucu.com^
+
+
+# ===============================================================
+# 2. Full list (ex filter_2.txt)
+# ===============================================================
+
+# ================================================================
+# Block
+# ================================================================
+
+# --- Advertising networks ---
+||googleads.g.doubleclick.net^
+||pagead2.googlesyndication.com^
+||static.doubleclick.net^
+||ads.adfox.ru^
+||banners.adfox.ru^
+||matchid.adfox.yandex.ru^
+||ad.mail.ru^
+||ads.betweendigital.com^
+||pb.adriver.ru^
+||content.adriver.ru^
+||adx.videonow.ru^
+||exad.smi2.ru^
+||ssp-rtb.sape.ru^
+||cdn-rtb.sape.ru^
+||ssp-asr.digitalcaramel.com^
+||sp.ohmy.bid^
+||px.adhigh.net^
+||ssp.bidvol.com^
+||ssp.hybrid.ai^
+||ssp.al-adtech.com^
+||cdn.al-adtech.com^
+||pbs.alfasense.com^
+||hb-bidder.skcrtxr.com^
+||cdn.skcrtxr.com^
+||hb.bumlam.com^
+||fcgi4.gnezdo.ru^
+||news.gnezdo.ru^
+||mobile.yandexadexchange.net^
+||exchange.buzzoola.com^
+||tube.buzzoola.com^
+||r.utraff.com^
+||a.utraff.com^
+||yhb.p.otm-r.com^
+||acint.net^
+||www.acint.net^
+||static.terratraf.com^
+||ced.sascdn.com^
+||server.cpmstar.com^
+||ogads-pa.clients6.google.com^
+||imasdk.googleapis.com^
+||river-3-3106.rtbcdn.ru^
+||river-3-391.rtbcdn.ru^
+||pic.rtbcdn.ru^
+
+# --- Counters / tracking ---
+||counter.yadro.ru^
+||tns-counter.ru^
+||www.tns-counter.ru^
+||top-fwz1.mail.ru^
+||mc.yandex.ru^
+||ping.qwps.cn^
+||ping.kwps.cn^
+||px.hsmedia.ru^
+||cdn.hsmedia.ru^
+||n1s1.hsmedia.ru^
+||px316.telecid.ru^
+
+# --- Analytics / telemetry ---
+||app-analytics-services.com^
+||app-measurement.com^
+||data.flurry.com^
+||metrics.icloud.com^
+||stats.avito.ru^
+||clickstream.goldapple.ru^
+||analytics.adjust.com^
+||analytics.adjust.world^
+||analytics.adjust.net.in^
+||api.lab.amplitude.com^
+||stream.lab.amplitude.com^
+||flag.lab.amplitude.com^
+||sr-client-cfg.amplitude.com^
+||events.launchdarkly.com^
+||clientstream.launchdarkly.com^
+||app.launchdarkly.com^
+||events.getpostman.com^
+||events-am.gw.postman.com^
+||insights-collector.newrelic.com^
+||bam.nr-data.net^
+||self.events.data.microsoft.com^
+||vortex.data.microsoft.com^
+||mobile.events.data.microsoft.com^
+||westus-0.in.applicationinsights.azure.com^
+||default.exp-tas.com^
+||web-perf.booking.com^
+||otel-gw.booking.com^
+||sink.gw.booking.com^
+||kimberlite.io^
+||analytics.iportal.ru^
+||sdk-api.apptracer.ru^
+||public-api.uxfeedback.ru^
+||ts.tracker-api.vk-analytics.ru^
+||tracker-api.vk-analytics.ru^
+||ip4.tracker-api.vk-analytics.ru^
+||report.appmetrica.yandex.net^
+||report.appmetrica.yango.com^
+||telemetry.individual.githubcopilot.com^
+||942211.log.rutube.ru^
+||932211.log.rutube.ru^
+||ca.iadsdk.apple.com^
+||app-analytics-v2.snapchat.com^
+||events.cid.samba.tv^
+||platform.cid.samba.tv^
+||o1224273.ingest.sentry.io^
+||o315582.ingest.sentry.io^
+||firebaselogging-pa.googleapis.com^
+||firebaseinstallations.googleapis.com^
+||firebaseremoteconfig.googleapis.com^
+||firebase-settings.crashlytics.com^
+||crashlyticsreports-pa.googleapis.com^
+||log.strm.yandex.ru^
+||quasar.yandex.ru^
+||quasar.yandex.net^
+||scbh.yandex.net^
+||sba.yandex.net^
+||sync.browser.yandex.net^
+||startup.mobile.yandex.net^
+||experiments.apple.com^
+||d8c14d4960ca.edge.sdk.awswaf.com^
+||vnyooi48b6.a.trbcdn.net^
+
+# --- AppsFlyer (ad attribution) ---
+||launches.appsflyersdk.com^
+||diz1gw.launches.appsflyersdk.com^
+||y8obqk.launches.appsflyersdk.com^
+||y8obqk.attr.appsflyersdk.com^
+||y8obqk.conversions.appsflyersdk.com^
+||y8obqk.cdn-settings.appsflyersdk.com^
+||cdn-settings.appsflyersdk.com^
+||app.appsflyer.com^
+
+# --- 360 Safe (CN spyware) ---
+||s.360safe.com^
+||tconf2.cloud.360safe.com^
+||tconf.cloud.360safe.com^
+||s.cloud.360safe.com^
+||sdup.update.360safe.com^
+||iup.360safe.com^
+||cc.f.360.cn^
+||spec.cloud.360safe.com^
+
+# --- Xiaomi / MIUI telemetry ---
+||flash.sec.intl.miui.com^
+||mcc-intl.inf.miui.com^
+||mqs-log.miui.com^
+||api.sec.intl.miui.com^
+||jupiter.rus.sys.miui.com^
+||mcc.russia.inf.miui.com^
+||ru.global.market.xiaomi.com^
+||ru.resolver.msg.global.xiaomi.net^
+
+# --- HiHonor telemetry ---
+||metrics-drru.dt.hihonorcloud.com^
+||apm.yun.hihonor.com^
+||apm-eu.yun.hihonor.com^
+||weather-info-drru.platform.hihonorcloud.com^
+
+# --- Cookie / consent ---
+||cdn.cookielaw.org^
+
+# ================================================================
+# Scam / malware suspects
+# ================================================================
+
+# --- Random names (C2/phishing pattern) ---
+||asdxwqw.com^
+||jvavav.com^
+||shahidrazi.online^
+||cny.fan^
+
+# --- Fake / non-existent ---
+||test.com^
+||0123456789nonexistent.com^
+||aboutbeautifulgallopinghorsesinthegreenpasture.online^
+
+# --- Suspicious TLDs ---
+||tr.nyacat.pw^
+||tr.kxmp.cf^
+||t.213891.xyz^
+||t.overflow.biz^
+||explodie.org^
+
+# --- DuckDNS (commonly abused) ---
+||rekcart.duckdns.org^
+||tr4ck3r.duckdns.org^
+
+# --- Suspicious CDN / hosting ---
+||ec2-18-156-161-134.eu-central-1.compute.amazonaws.com^
+||ns575949.ip-51-222-82.net^
+||dvxdiz880bm14.cloudfront.net^
+
+# --- PUA / adware ---
+||mediaget.com^
+||servandroidkino.ru^
+||wepzone.net^
+||shubt.net^
+
+# --- Suspicious personal domains ---
+||home.yxgz.club^
+||lucke.fenesisu.moe^
+||buny.uk^
+
+# --- Phishing (KB Kookmin Bank clone) ---
+||0d.kebhana.mx^
+
+# --- Torrent trackers ---
+||tracker.gcrenwp.top^
+||tracker.iperson.xyz^
+||tracker.corpscorp.online^
+||tracker.zupix.online^
+||tracker.alaskantf.com^
+||tracker.lintk.me^
+||tracker.tryhackx.org^
+||tracker.xiaoduola.xyz^
+||tracker.srv00.com^
+||tracker.dmcomic.org^
+||tracker.flatuslifir.is^
+||tracker.waaa.moe^
+||tracker.yume-hatsuyuki.moe^
+||tracker.bittor.pw^
+||tracker.darkness.services^
+||tracker.mywaifu.best^
+||tracker810.xyz^
+||tracker.fnix.net^
+||tracker.bluefrog.pw^
+||tracker.gmi.gd^
+||tracker.opentorrent.top^
+||tracker.opentrackr.org^
+||tracker.ducks.party^
+||tracker.ixuexi.click^
+||tracker.plx.im^
+||tracker.moxing.party^
+||tracker.therarbg.to^
+||tracker.bz^
+||tracker.dler.com^
+||tracker.dler.org^
+||tracker2.dler.org^
+||tracker.1h.is^
+||tracker.ghostchu-services.top^
+||tracker.sbsub.com^
+||tracker.zhuqiy.com^
+||tracker.moeblog.cn^
+||tracker.renfei.net^
+||tracker.tvunderground.org.ru^
+||tracker.playground.ru^
+||extracker.dahrkael.net^
+||open.stealth.si^
+||open.acgtracker.com^
+||open.demonii.com^
+||opentracker.io^
+||open.trackerlist.xyz^
+||tracker.bt-hash.com^
+||tracker.bt4g.com^
+||bt.xbtrutor.com^
+||bt.dugtor.ru^
+||bt.poletracker.org^
+||bittorrent-tracker.e-n-c-r-y-p-t.net^
+||leet-tracker.moe^
+||bandito.byterunner.io^
+||utracker.ghostchu-services.top^
+||bvarf.tracker.sh^
+||tracker.wepzone.net^
+||tracker-udp.gbitt.info^
+||tracker-de-2.cutie.dating^
+||tracker.tritan.gg^
+||ipv4announce.sktorrent.eu^
+||tracker.qu.ax^
+||tracker.dhitechnical.com^
+||torrent.hificode.in^
+||torrent.tracker.durukanbal.com^
+||tracker.ipv6tracker.org^
+||tracker.t-1.org^
+||tracker.torrust-demo.com^
+||tracker.startwork.cv^
+||tracker.pmman.tech^
+||tracker.vanitycore.co^
+
+# --- Misc suspects ---
+||mbgazeta.ru^
+||torrentclub.online^
+||d40969.acod.regrucolo.ru^
+||user60136.clients-cdnnow.ru^
+||user98431.clients-cdnnow.ru^
+
+# ================================================================
+# Optional (aggressive policy only)
+# ================================================================
+
+# Snapchat
+# ||aws-proxy-gcp.api.snapchat.com^
+# ||usc1-gcp-v62.api.snapchat.com^
+# ||usc1-gcp-v61.api.snapchat.com^
+# ||gcp.api.snapchat.com^
+# ||us-east1-aws.api.snapchat.com^
+# ||aws.api.snapchat.com^
+# ||us-central1-gcp.api.snapchat.com^
+
+# Microsoft telemetry
+||nav-edge.smartscreen.microsoft.com^
+
+# Tencent / QQ telemetry
+||dns.weixin.qq.com.cn^
+||dldir1v6.qq.com^
+
+# AMP CDN
+||cdn.ampproject.org^
+||cdn-content.ampproject.org^
