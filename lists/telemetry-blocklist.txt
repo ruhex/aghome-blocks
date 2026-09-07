@@ -1,25 +1,6 @@
 [Adblock Plus 2.0]
-! Title: Custom Blocklist 2
-! Created: 2026-03-18
-! Expires: 30 days
-! Homepage: https://github.com/aghome/blocks
-
-||1737660423.rsc.cdn77.org^
-||clientstream-ga.launchdarkly.com^
-||consent.google.com^
-||content-autofill.googleapis.com^
-||dls-gcp.di.atlas.samsung.com^
-||mqtt.c10r.facebook.com^
-||o33249.ingest.us.sentry.io^
-||optimizationguide-pa.googleapis.com^
-||plab.site^
-||pushserver.i-dgtl.ru^
-||sentry.io^
-||skylab-stream.prod.us-west-2.amplitude.com^
-||sponsor.ajay.app^
-||unleash.codeium.com^
-||www.googleadservices.com^
-||www.googletagmanager.com^
-||cloudapp.azure.com^
-||scorecardresearch.com^
-||clck.yandex.net^
+! Title: Ruhex telemetry - DEPRECATED
+! This list has been merged into blocklist.txt.
+! Switch to: https://raw.githubusercontent.com/ruhex/aghome-blocks/refs/heads/main/lists/blocklist.txt
+! All rules are preserved in blocklist.txt - nothing is lost on switch.
+! This file is kept only for backward compatibility of existing subscriptions.
