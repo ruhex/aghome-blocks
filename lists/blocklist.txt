@@ -102,9 +102,6 @@
 ||analytics.iportal.ru^
 ||sdk-api.apptracer.ru^
 ||public-api.uxfeedback.ru^
-||ts.tracker-api.vk-analytics.ru^
-||tracker-api.vk-analytics.ru^
-||ip4.tracker-api.vk-analytics.ru^
 ||report.appmetrica.yandex.net^
 ||report.appmetrica.yango.com^
 ||telemetry.individual.githubcopilot.com^
@@ -519,3 +516,9 @@
 ||pixel.yandex.com^
 ||report.ap.yandex-net.ru^
 ||extmaps-api.yandex.net^
+||vk-analytics.ru^
+||metrics-dre.dt.hihonorcloud.com^
+||ads-sdk-gateway.prd.mz.internal.unity3d.com^
+||iads.unity3d.com^
+||vungle.com^
+||sdk.mail.ru^
