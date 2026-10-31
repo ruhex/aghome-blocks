@@ -352,3 +352,8 @@
 ||segment.io^
 ||hotjar.com^
 ||fullstory.com^
+||ab.chatgpt.com^
+||experimentation-evaluator.eu01.miro.com^
+||cdn.segmento.ru^
+||stats.gc.apple.com^
+||analytics.brew.sh^
