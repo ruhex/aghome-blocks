@@ -358,3 +358,5 @@
 ||stats.gc.apple.com^
 ||analytics.brew.sh^
 ||ogkopg.win^
+||zigmund.online^
+||zsvc.tech^
