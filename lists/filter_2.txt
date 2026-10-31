@@ -1,6 +1,0 @@
-[Adblock Plus 2.0]
-! Title: Ruhex filter 2 - DEPRECATED
-! This list has been merged into blocklist.txt.
-! Switch to: https://raw.githubusercontent.com/ruhex/aghome-blocks/refs/heads/main/lists/blocklist.txt
-! All rules are preserved in blocklist.txt - nothing is lost on switch.
-! This file is kept only for backward compatibility of existing subscriptions.
