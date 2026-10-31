@@ -364,3 +364,4 @@
 ||analytics.biggeek.ru^
 ||log.enterprise.api-maps.yandex.ru^
 ||chromeuxreport.googleapis.com^
+||sdkconfig.rus.xiaomi.com^
