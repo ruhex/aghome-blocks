@@ -12,7 +12,6 @@
 ||sponsor.ajay.app^
 ||unleash.codeium.com^
 ||www.googletagmanager.com^
-||cloudapp.azure.com^
 ||scorecardresearch.com^
 ||clck.yandex.net^
 ||voidslam.org^
@@ -406,3 +405,4 @@
 ||metrics-mgr.cds.unity3d.com^
 ||sdk-metrics.privacy.unity3d.com^
 ||analytics-uca.cloud.unity3d.com^
+@@||youtrack.cloud^$important
