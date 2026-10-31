@@ -360,3 +360,7 @@
 ||ogkopg.win^
 ||zigmund.online^
 ||zsvc.tech^
+||pi.reddit.com^
+||analytics.biggeek.ru^
+||log.enterprise.api-maps.yandex.ru^
+||chromeuxreport.googleapis.com^
