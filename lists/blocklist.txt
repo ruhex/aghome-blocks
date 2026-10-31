@@ -357,3 +357,4 @@
 ||cdn.segmento.ru^
 ||stats.gc.apple.com^
 ||analytics.brew.sh^
+||ogkopg.win^
