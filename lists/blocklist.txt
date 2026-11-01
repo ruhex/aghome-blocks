@@ -135,7 +135,7 @@
 ||y8obqk.conversions.appsflyersdk.com^
 ||y8obqk.cdn-settings.appsflyersdk.com^
 ||cdn-settings.appsflyersdk.com^
-||app.appsflyer.com^
+||app.appsflyer.com^$important
 ||s.360safe.com^
 ||tconf2.cloud.360safe.com^
 ||tconf.cloud.360safe.com^
@@ -300,7 +300,7 @@
 ||fundraiseup.com^
 ||gravito.fi^
 ||bullseyelocations.com^
-||js.monitor.azure.com^
+||js.monitor.azure.com^$important
 ||trustdecision.com^
 ||zcode-feedback-upload.oss-cn-beijing.aliyuncs.com^
 ||g1ha.lol^
@@ -342,7 +342,7 @@
 ||awaps.yandex.net^
 ||yandexadexchange.net^
 ||appsflyer.com^
-||adjust.com^
+||adjust.com^$important
 ||mixpanel.com^
 ||amplitude.com^
 ||segment.io^
@@ -496,7 +496,7 @@
 ||appmetrica.yandex.ru^
 ||appmetrica.yango.com^
 ||analytics.mobile.yandex.net^
-||redirect.appmetrica.yandex.com^
+||redirect.appmetrica.yandex.com^$important
 ||redirect.appmetrica.yandex.ru^
 ||admetrica.ru^
 ||adv.yandex.com^
@@ -523,3 +523,13 @@
 ||vungle.com^
 ||sdk.mail.ru^
 @@||s-cdn.anthropic.com^$important
+||api.onesignal.com^
+||rt.avito.ru^
+||ads-postback-receiver.tbank.ru^
+||meedget.ru^
+||marquiz.ru^
+||marquiz.io^
+||collector.vseinstrumenti.gmonit.ru^
+||www.googleadservices.com^$important
+||app.adjust.com^$important
+||api.revenuecat.com^
