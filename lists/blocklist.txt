@@ -522,3 +522,4 @@
 ||iads.unity3d.com^
 ||vungle.com^
 ||sdk.mail.ru^
+@@||s-cdn.anthropic.com^$important
