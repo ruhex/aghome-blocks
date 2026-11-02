@@ -554,3 +554,7 @@
 ||api.ipify.org^
 ||checkip.amazonaws.com^
 ||ifconfig.me^
+||aclpro.ru^
+||advcake.ru^
+||advcake.com^
+||advcake.net^
