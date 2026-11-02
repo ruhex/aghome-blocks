@@ -558,3 +558,8 @@
 ||advcake.ru^
 ||advcake.com^
 ||advcake.net^
+||mobile.ads.yandex.net^
+||ads.yandex.net^
+||cake.ru^
+||adsterra.com^$important
+||logentries.com^$important
