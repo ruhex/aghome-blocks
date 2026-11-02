@@ -532,3 +532,14 @@
 ||www.googleadservices.com^$important
 ||app.adjust.com^$important
 ||api.revenuecat.com^
+||whitelist.work^
+||cdn.whitelist.work^
+||self.cv^
+||tcd.mng.tl^
+||freegent.ia^
+||freegent.ai^
+||zyvop.com^
+||selfsigned.ueiwsp.com^
+||app.revroute.ru^
+||bytesizedbets.com^
+||topluxolivingfinds.com^
