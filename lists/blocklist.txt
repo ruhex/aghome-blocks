@@ -295,7 +295,6 @@
 ||inappstory.ru^
 ||uxfeedback.ru^
 ||aplaut.io^
-||apltcdn.com^
 ||etrusted.com^
 ||fundraiseup.com^
 ||gravito.fi^
