@@ -543,3 +543,14 @@
 ||app.revroute.ru^
 ||bytesizedbets.com^
 ||topluxolivingfinds.com^
+||media-adv.market.yandex.ru^
+||app.uaas.yandex.ru^
+||eye.targetads.io^
+||noti-eu.adsmoloco.com^
+||cdn-f.adsmoloco.com^
+||apptrailers.itunes.apple.com^
+||apptrailers-ssl.itunes.apple.com^
+||amplitude.thepure.app^
+||api.ipify.org^
+||checkip.amazonaws.com^
+||ifconfig.me^
