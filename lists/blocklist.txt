@@ -563,3 +563,12 @@
 ||cake.ru^
 ||adsterra.com^$important
 ||logentries.com^$important
+||telemetry-logs.kimi.ai^
+||pms.mail.ru^
+||media-trend.mail.ru^
+||rtb-s2p.t-bank-app.ru^
+||stories-rtb.t-bank-app.ru^
+||ametrica.org^
+||hotels-growth-feed.t-bank-app.ru^
+||mapsmobilesdks-pa.googleapis.com^
+||events.lotteshop.ru^
